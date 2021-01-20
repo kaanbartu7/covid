@@ -39,7 +39,7 @@ Data includes 2 csv files:
 ~~~~~~~
 
 
-### Instructions for web app deploying on local:
+## Instructions for web app deploying on local:
 1. You can run the following commands in the project's directory to set up the database, train model and save the model.
 
     - To run ETL pipeline to clean data and store the processed data in the database
