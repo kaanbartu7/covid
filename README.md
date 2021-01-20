@@ -18,7 +18,7 @@ Data includes 2 csv files:
 2. categories.csv: Disaster categories of messages.
 
 ## Findings on ML processes 
-Since this project aims multioutput classifying, for some categories there is a class imbalance state. To prevent this best tactic is using class weight option in sklearn and running decision tree based algorithms with new class weights. Poorly sklearn's class weight ability gives error when there is no single sample while cross-validating. In our data some categories have very lass amount of samples, because of this reason we can not implement class weight strategy in this project.
+Since this project aims multioutput classifying, for some categories there is a class imbalance state. To prevent this best tactic is using class weight option in sklearn and running decision tree based algorithms with new class weights. Poorly, sklearn's class weight ability gives error when there is no single sample for positive class while cross-validating. In our data, some categories have very lass amount of positive class samples, because of this reason we can not implement class weight strategy in this project. It gives an error since it can not find any positive class in testing on validation data.
 
 In imbalanced data we should focus on F1 Score, not in accuracy. Because negative class contains more than 90% of data in some categories, accuracy can be easily over 90% if we predict all sample with negative class. This will give a good accuracy but poor F1 Score , especially for positive class.
 
