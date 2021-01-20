@@ -1,9 +1,11 @@
-# Disaster Response Project - Multioutput NLP Classifier
+# Disaster Response Project - Multioutput NLP Classifier 
+## Heal the world with Machine Learning :earth_americas: :volcano::sunrise_over_mountains:
 In this project, we will build a Multioutput Classification model to predict message categories in future possible disasters.There are 36 pre-defined categories, and examples of these categories include Aid Related, Medical Help,Food, Death etc. By classifying these messages, we can help government or other aid organizations about prioritizing critical messases in possible disaster events.  This project inlcudes the building of a basic ETL and Machine Learning pipeline to achieve the task.
 
 This project includes a web app version too, you can run it in your local with information below. Project is also implemented on heroku website. Anyone can reach to web site from internet and test the model by inputting their message. 
 Heroku page : 
 
+This project is created as a part of Udacity Data Scientist Nanodegree Program.
 
 ### Data:
 The data in this project comes from Figure Eight - Multilingual Disaster Response Messages. This dataset contains 30,000 messages drawn from events including an earthquake in Haiti in 2010, an earthquake in Chile in 2010, floods in Pakistan in 2010, super-storm Sandy in the U.S.A. in 2012, and news articles spanning a large number of years and 100s of different disasters.
