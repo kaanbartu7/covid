@@ -1,7 +1,7 @@
 # Disaster Response Project - Multioutput NLP Classifier
-In this project, we will build a Multioutput Classification model to predict message categories in futere possible disaster.There are 36 pre-defined categories, and examples of these categories include Aid Related, Medical Help, Search And Rescue, etc. By classifying these messages, we can allow these messages to be sent to the appropriate disaster relief agency. This project will involve the building of a basic ETL and Machine Learning pipeline to facilitate the task.
+In this project, we will build a Multioutput Classification model to predict message categories in future possible disasters.There are 36 pre-defined categories, and examples of these categories include Aid Related, Medical Help,Food, Death etc. By classifying these messages, we can help government or other aid-people about prioritizing critical messases in possible disaster events.  This project will involve the building of a basic ETL and Machine Learning pipeline to facilitate the task.
 
-Finally, this project contains a web app where you can input a message and get classification results.
+
 This project includes a web app version, you can run it in your local with information below. Project is also implemented on heroku website. Anyone can reach to web site from internet and test the model , heroku page :
 
 
