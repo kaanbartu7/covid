@@ -51,7 +51,17 @@ https://machinelearningmastery.com/fbeta-measure-for-machine-learning/
 ~~~~~~~
 
 
-## Instructions for web app deploying on local:
+
+## Instructions for deploying web app on local:
+
+### Dependencies:
+* Python 3.5+
+* Machine Learning Libraries: NumPy, SciPy, Pandas, Sciki-Learn
+* Natural Language Process Libraries: NLTK
+* SQLlite Database Libraqries: SQLalchemy
+* Model Loading and Saving Library: Pickle
+* Web App and Data Visualization: Flask, Plotly
+
 1. You can run the following commands in the project's directory to set up the database, train model and save the model.
 
     - To run ETL pipeline to clean data and store the processed data in the database
