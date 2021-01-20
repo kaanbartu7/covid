@@ -1,9 +1,19 @@
 # Disaster Response Project - Multioutput NLP Classifier
-
-In this project, we will build a model to classify messages that are sent during disasters. There are 36 pre-defined categories, and examples of these categories include Aid Related, Medical Help, Search And Rescue, etc. By classifying these messages, we can allow these messages to be sent to the appropriate disaster relief agency. This project will involve the building of a basic ETL and Machine Learning pipeline to facilitate the task. This is also a multi-label classification task, since a message can belong to one or more categories. We will be working with a data set provided by [Figure Eight](https://www.figure-eight.com/) containing real messages that were sent during disaster events.
+In this project, we will build a Multioutput Classification model to predict message categories in futere possible disaster.There are 36 pre-defined categories, and examples of these categories include Aid Related, Medical Help, Search And Rescue, etc. By classifying these messages, we can allow these messages to be sent to the appropriate disaster relief agency. This project will involve the building of a basic ETL and Machine Learning pipeline to facilitate the task.
 
 Finally, this project contains a web app where you can input a message and get classification results.
+This project includes a web app version, you can run it in your local with information below. Project is also implemented on heroku website. Anyone can reach to web site from internet and test the model , heroku page :
 
+
+### Data:
+The data in this project comes from Figure Eight - Multilingual Disaster Response Messages. This dataset contains 30,000 messages drawn from events including an earthquake in Haiti in 2010, an earthquake in Chile in 2010, floods in Pakistan in 2010, super-storm Sandy in the U.S.A. in 2012, and news articles spanning a large number of years and 100s of different disasters.
+
+The data has been encoded with 36 different categories related to disaster response and has been stripped of messages with sensitive information in their entirety.
+
+Data includes 2 csv files:
+
+1. messages.csv: Messages data.
+2. categories.csv: Disaster categories of messages.
 
 ## File Descriptions
 ~~~~~~~
@@ -28,12 +38,7 @@ Finally, this project contains a web app where you can input a message and get c
           |-- Screenshots
 ~~~~~~~
 
-### Installing
-To clone the git repository:
-```
-git clone https://github.com/canaveensetia/udacity-disaster-response-pipeline.git
-```
-<a name="execution"></a>
+
 ### Executing Program:
 1. You can run the following commands in the project's directory to set up the database, train model and save the model.
 
